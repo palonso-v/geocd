@@ -43,11 +43,13 @@ If you use custom dataset paths or preprocessing, update the data-loading utilit
 
 1. Pretrain with Chamfer Distance
 
-python train.py --backbone AE --dataset modelnet40 --batch_size 12 --nepochs 100
-
-Example with PTv3:
-
-python train.py --backbone PTv3 --dataset modelnet40 --batch_size 4 --nepochs 100
+```bash
+python train.py \
+    --backbone AE \
+    --dataset modelnet40 \
+    --batch_size 12 \
+    --nepochs 100
+```
 
 2. Finetune with GeoCD
 
@@ -62,17 +64,9 @@ python finetune.py \
     --nhops 2
 ```
 
-python finetune.py \
-    --backbone AE \
-    --dataset modelnet40 \
-    --batch_size 1 \
-    --nepochs 1 \
-    --checkpoint_path ./outputs/geocd_AE_modelnet40_cd_best.pth \
-    --k_value 5 \
-    --nhops 2
-
 3. Evaluation
 
+```bash
 python evaluate.py \
     --backbone AE \
     --dataset modelnet40 \
@@ -82,6 +76,7 @@ python evaluate.py \
     --metrics cd geocd \
     --k_value 5 \
     --nhops 2
+```
 
 ## Checkpoints
 
