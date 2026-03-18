@@ -99,8 +99,7 @@ geocd_AE_modelnet40_geocd_last.pth
 If you find this repository useful, please cite:
 
 @ARTICLE{2025arXiv250623478A,
-  author        = {{Alonso}, Pedro and {Li}, Tianrui and {Li}, Chongshou},
-  
+  author        = {{Alonso}, Pedro and {Li}, Tianrui and {Li}, Chongshou}, 
   title         = "{GeoCD: A Differential Local Approximation for Geodesic Chamfer Distance}",
   journal       = {arXiv e-prints},
   keywords      = {Computer Vision and Pattern Recognition},
