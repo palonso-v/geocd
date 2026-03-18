@@ -80,20 +80,6 @@ python evaluate.py \
     --nhops 2
 ```
 
-## Checkpoints
-
-During training, checkpoints are saved to --save_dir.
-
-Typical filenames are:
-
-geocd_AE_modelnet40_cd_best.pth
-
-geocd_AE_modelnet40_cd_last.pth
-
-geocd_AE_modelnet40_geocd_best.pth
-
-geocd_AE_modelnet40_geocd_last.pth
-
 ## Citation
 
 If you find this repository useful, please cite:
