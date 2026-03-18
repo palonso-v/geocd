@@ -26,8 +26,10 @@ cd geocd
 
 Create and activate a conda environment:
 
+```bash
 conda create -n geocd python=3.10
 conda activate geocd
+```
 
 ## Data Preparation
 
